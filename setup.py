@@ -56,11 +56,15 @@ requirements = [
     "numpy",
     "pandas",
     "scipy",
-    "tifffile==0.15.1",
+    #"tifffile==0.15.1",
+    "tifffile",
     "torch>=1.0",
     "tqdm",
-    "scikit-image>=0.15.0",
-    "aicsimageio==3.0.7",
+    #"scikit-image>=0.15.0",
+    "scikit-image",
+    #"aicsimageio==3.0.7",
+    "aicsimageio",
+    "quilt3",
 ]
 
 extra_requirements = {
